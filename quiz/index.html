@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+    <button id="start" onclick="start()">Start</button>
+        <div id="timer">00</div>
+    </nav>
+    <center><h1>"Quizz"</h1></center>
+
+    <div class="ques-div">
+<h2 id="ques">
+
+</h2>
+<input type="radio" name="opt">
+<label for="" id="opt1"></label><br>
+<input type="radio" name="opt">
+<label for="" id="opt2"></label><br>
+<input type="radio" name="opt">
+<label for="" id="opt3"></label>
+    </div>
+    <button id="next" onclick="nextques()">Next</button>
+
+
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
